@@ -1,0 +1,35 @@
+{
+    "name": "qschool/fakerphp-image-provider",
+    "description": "Провайдер для получения фейковых изображения с https://lorem.space",
+    "keywords": [
+        "faker",
+        "php",
+        "images",
+        "qschool"
+    ],
+    "homepage": "https://github.com/qschool/fakerphp-image-provider",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Mikhail Volkov",
+            "email": "mvsvolkov@gmail.com"
+        }
+    ],
+    "require": {
+        "php": "^8.0",
+        "fakerphp/faker": "^1.10"
+    },
+    "suggest": {
+        "ext-curl": "*"
+    },
+    "autoload": {
+        "psr-4": {
+            "QSchool\\FakerImageProvider\\": "src"
+        }
+    },
+    "config": {
+        "sort-packages": true
+    },
+    "minimum-stability": "dev",
+    "prefer-stable": true
+}
