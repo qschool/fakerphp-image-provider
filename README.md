@@ -5,7 +5,7 @@
 
 ## Описание
 
-Провайдер для получения фейковых для [fakerphp](https://github.com/fakerphp/faker) изображения с [lorem.space](https://lorem.space)
+Провайдер для получения фейковых для [fakerphp](https://github.com/fakerphp/faker) изображения с [qschool/faker-images-service](https://studentsapi.academy.qsoft.ru/faker-images)
  
 ## Установка
 
@@ -19,7 +19,7 @@ composer require --dev qschool/fakerphp-image-provider
 $faker = \Faker\Factory::create();
 $faker->addProvider(new \QSchool\FakerImageProvider\FakerImageProvider($faker));
 
-// Для получения строки url 'https://api.lorem.space/image/car?w=800&h=600'
+// Для получения строки url 'https://studentsapi.academy.qsoft.ru/faker-images/image/car?w=800&h=600'
 $faker->imageUrl($width = 800, $height = 600, $category = 'car'); 
 
 // Для скачивания изображения во временную директорию получения строки url
