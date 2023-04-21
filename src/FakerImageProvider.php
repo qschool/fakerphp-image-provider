@@ -8,7 +8,7 @@ use RuntimeException;
 
 class FakerImageProvider extends BaseProvider
 {
-    protected static string $baseUrl = "https://api.faker-images.academy.qsoft.ru/image/";
+    protected static string $baseUrl = "https://studentsapi.academy.qsoft.ru/faker-images/image/";
 
     private const CATEGORIES = [
         'album',
