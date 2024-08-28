@@ -1,5 +1,6 @@
 {
     "name": "qschool/fakerphp-image-provider",
+    "type": "library",
     "description": "Провайдер для получения фейковых изображения с https://lorem.space",
     "keywords": [
         "faker",
@@ -29,7 +30,5 @@
     },
     "config": {
         "sort-packages": true
-    },
-    "minimum-stability": "dev",
-    "prefer-stable": true
+    }
 }
